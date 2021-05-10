@@ -31,7 +31,7 @@ public class Tecnicas
                         if(value.isEmpty())
                         {
                             String respPregunta = Tarjeta.tarjetas.get(i).getRespuesta();
-                            System.out.println(pregTarjeta);
+                            System.out.println(respPregunta);
                             System.out.println("¿Respondiste bien la pregunta? 1 para no, 2 para sí.");
                             int calificacion = scan.nextInt(); 
                             if(calificacion == 1)
@@ -82,7 +82,7 @@ public class Tecnicas
                             break;
                         }
                         String respPregunta = tarjetasTematizadas.get(i).getRespuesta();
-                        System.out.println(pregTarjeta);
+                        System.out.println(respPregunta);
                         
                         System.out.println("¿Respondiste bien la pregunta? 1 para no, 2 para sí.");
                         int calificacion = scan.nextInt(); 
